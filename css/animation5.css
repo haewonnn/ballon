@@ -1,0 +1,122 @@
+
+
+/*  a 오른쪽으로  */
+	.move1 {
+		animation-name: a;
+		animation-duration: 4s;
+		animation-fill-mode: forwards;	
+		background-color: blu e;
+	}
+
+	@-webkit-keyframes a {
+    0% { transform: translate(0vw, 0vh) scale(1,2, 0.9);}
+    30% { transform: translate(-5vw, -20vh) scale(1, 1); }
+    100% { transform: translate(-5vw, 70vh) scale(1, 1); left:-100px;}
+	}
+
+/*  b 왼쪽으로 */
+	.move2 {
+	 	animation-name: b;
+	 	animation-duration: 4s;
+		animation-fill-mode: forwards;	
+		background-color: pi nk;
+	}
+
+	@-webkit-keyframes b {
+	0% { transform: translate(0vw, 0vh) scale(1,2, 0.9);}
+    30% { transform: translate(5vw, -30vh) scale(1, 1);}
+    100% { transform: translate(5vw, 60vh) scale(1, 1);}
+	}
+
+/*  c 위로 */
+	.move3 {
+	  	animation-name: c;
+	  	animation-duration: 4s;
+		animation-fill-mode: forwards;	
+		background-color: yel low;
+	}
+
+	@-webkit-keyframes c {
+    0% { transform: translate(0vw, 0vh) scale(1,2, 0.9);}
+    30% { transform: translate(9vw, -40vh) scale(1, 1);}
+    100% { transform: translate(9vw, 50vh) scale(1, 1);}
+	}
+
+/*  d 아래로 */
+	.move4 {
+	  	animation-name: d;
+	  	animation-duration: 4s;
+		animation-fill-mode: forwards;	
+		background-color: gre en;
+	}
+
+	@-webkit-keyframes d {
+    0% { transform: translate(0vw, 0vh) scale(1,2, 0.9);}
+    30% { transform: translate(-3vw, -50vh) scale(1, 1);}
+    100% { transform: translate(-3vw, 35vh) scale(1, 1); }
+	}
+
+
+/*  e 왼쪽 아래 대각선으로 */
+	.move5 {
+	  	animation-name: e;
+	  	animation-duration: 4s;
+		animation-fill-mode: forwards;	
+		background-color: oran ge;
+	}
+
+	@-webkit-keyframes e {
+    0% { transform: translate(0vw, 0vw) scale(1,2, 0.9);}
+    30% { transform: translate(3vw, -60vh) scale(1, 1);}
+    100% { transform: translate(3vw, 25vh) scale(1, 1);}
+	}
+
+
+/*  f 오른쪽 위 대각선으로 */
+	.move6 {
+	  	animation-name: f;
+	  	animation-duration: 4s;
+		animation-fill-mode: forwards;
+		background-color: pur ple;	
+	}
+
+	@-webkit-keyframes f {
+    0% { transform: translate(6vw, 0vh) scale(1,2, 0.9);}
+    30% { transform: translate(12vw, -80vh) scale(1, 1); }
+    100% { transform: translate(12vw, 16vh) scale(1, 1);}
+	}
+
+
+
+
+/*  풍선 작아지며 떨어지기 */
+
+	.pic1{
+	  animation-name: p;
+	  animation-duration: 4s;
+	  animation-iteration-count: 1;
+	  animation-fill-mode: forwards;
+	}
+
+	@-webkit-keyframes  p{
+	  0%   {transform: rotate(0deg) translate(0vw, 0vh)}
+	  40% { transform: scale(1, 1) translate(-50vw, -10vh) }
+	  100%  {transform: rotate(-45deg) scale(0.2, 0.4) translate(-150vw, -15vh);}
+	}
+
+
+	.pic2{
+		animation-name: q;
+	  animation-duration: 4s;
+	  animation-iteration-count: 1;
+	  animation-fill-mode: forwards;
+	}
+
+	@-webkit-keyframes  q{
+	  0%   {transform: rotate(0deg) translate(0vw, 0vh);}
+	  40% { transform: scale(1, 1) translate(16vw, -20vh)}
+	  100%  {transform: rotate(45deg) scale(0.2, 0.4) translate(120vw, 20vh);}
+	}
+
+
+	
